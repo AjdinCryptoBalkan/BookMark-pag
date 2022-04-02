@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+  position: relative;
+  width: 80%;
+  height: 50px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.logo {
+  position: absolute;
+  width: 170px;
+}
+
+.navbar-lu {
+  list-style: none;
+}
+
+.navbar-lu li {
+  display: inline-block;
+  padding-left: 24px;
+}
+
+.navbar-lu li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar-lu li button {
+  width: 120px;
+  border-radius: 6px;
+  border: 0;
+  color: white;
+  font-weight: 500;
+  height: 40px;
+  background-color: #fb5859;
+}
+
+.frist-section {
+  position: relative;
+  width: 80%;
+  height: 500px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 130px;
+}
+
+.frist-section p {
+  color: gainsboro;
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+}
+
+.textbox {
+  position: absolute;
+  width: 70%;
+  text-align: start;
+  height: 100%;
+  background-color: transparent;
+}
+
+.Text-box-text {
+  position: relative;
+  padding-top: 130px;
+  font-weight: 500;
+  font-size: 52px;
+}
+
+.one-button {
+  background-color: #5365e3;
+  width: 166px;
+  height: 47px;
+  border: 0;
+  color: white;
+  border-radius: 7px;
+  font-family: "Rubik", sans-serif;
+}
+
+.two-button {
+  position: relative;
+  background-color: #f7f7f7;
+  width: 166px;
+  height: 47px;
+  border: 0;
+  left: 10px;
+  border-radius: 7px;
+  font-family: "Rubik", sans-serif;
+}
+
+.hero-iluctrion {
+  position: absolute;
+  right: 0;
+}
+
+.hero-iluctrion {
+  max-width: 100%;
+}
+
+.secation-features {
+  position: relative;
+  padding-top: 70px;
+}
+
+.of-section-for-menu {
+  max-width: 650px;
+  height: 50px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 80px;
+}
+
+.main-line {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  height: 4px;
+  top: 100%;
+  background-color: #e0e0ea;
+  top: 50px;
+}
+
+.new {
+  position: absolute;
+  list-style: none;
+}
+
+.new li {
+  display: inline-block;
+  padding-left: 50px;
+}
+
+.new li a {
+  color: gray;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.line-in-line {
+  width: 36%;
+  background-color: #db6365;
+  height: 5px;
+}
+
+.sectionfor {
+  position: relative;
+  width: 70%;
+  height: auto;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 105px;
+}
+
+.inluctation {
+  position: relative;
+  max-width: 100%;
+}
+
+.text-box-div {
+  position: absolute;
+  right: 0;
+  width: 40%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.text-box-div h1 {
+  color: black;
+  padding-top: 90px;
+}
+
+.text-box-div p {
+  color: gray;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  padding-top: 10px;
+}
+
+.btn-for-feturesection {
+  width: 120px;
+  height: 45px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #5365e3;
+  margin-top: 20px;
+  color: white;
+  font-family: "Rubik", sans-serif;
+}
+
+.section-for-download {
+  position: relative;
+  padding-top: 200px;
+}
+
+.section-for-download h1 {
+  font-size: 34px;
+}
+
+.section-for-download p {
+  padding-top: 15px;
+}
+
+.cartd-section {
+  position: relative;
+  width: 80%;
+  height: auto;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+
+.cartd-section li {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.cart {
+  position: relative;
+  width: 300px;
+  height: 350px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 0.5px solid #e9e8e8;
+}
+
+.cart h1 {
+  position: absolute;
+  font-size: 25px;
+  left: 60px;
+  top: 150px;
+}
+
+.cart p {
+  position: absolute;
+  left: 75px;
+  top: 190px;
+}
+
+.m2 {
+  position: relative;
+  top: 60px;
+}
+
+.m3 {
+  position: relative;
+  top: 120px;
+}
+
+.chrom {
+  position: relative;
+  top: 20px;
+  width: 110px;
+  height: 110px;
+  background-image: url("../img/logo-chrome.svg");
+  background-repeat: no-repeat;
+}
+
+.dots {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  bottom: 75px;
+  background-image: url("../img/bg-dots.svg");
+}
+
+.butoon-new {
+  position: absolute;
+  width: 80%;
+  height: 45px;
+  background-color: #5365e3;
+  border: 0;
+  left: 26px;
+  color: white;
+  font-weight: 500;
+  border-radius: 5px;
+  bottom: 10px;
+}
+
+.Firefox {
+  position: relative;
+  top: 20px;
+  width: 110px;
+  height: 110px;
+  background-image: url("../img/logo-firefox.svg");
+  background-repeat: no-repeat;
+}
+
+.Opera {
+  position: relative;
+  top: 20px;
+  width: 110px;
+  height: 110px;
+  background-image: url("../img/logo-opera.svg");
+  background-repeat: no-repeat;
+}
+
+.section-for-q h1 {
+  font-size: 34px;
+  padding-top: 200px;
+}
+
+.section-for-q p {
+  padding: 20px;
+}
+
+.qustino {
+  position: relative;
+  max-width: 480px;
+  top: 30px;
+}
+
+.last-section {
+  width: 100%;
+  height: 360px;
+  background-color: #5266df;
+  margin-top: 200px;
+}
+
+.last-section h2 {
+  color: white;
+  font-size: 25px;
+  padding-top: 60px;
+}
+
+.last-section h1 {
+  color: white;
+  font-size: 35px;
+}
+
+.email {
+  position: relative;
+  top: 50px;
+  max-width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border: 0;
+}
+
+.concatus {
+  position: relative;
+  width: 120px;
+  border-radius: 6px;
+  border: 0;
+  color: white;
+  font-weight: 500;
+  height: 40px;
+  background-color: #fb5859;
+  left: 20px;
+  top: 50px;
+}
+
+.end-section {
+  width: 100%;
+  height: 55px;
+  background-color: #313133;
+}
+
+.centerinlastnavbar {
+  position: relative;
+  width: 80%;
+  height: 50px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo-new {
+  position: relative;
+  top: 15px;
+}
+
+.last-lu {
+  list-style: none;
+}
+
+.last-lu li {
+  position: relative;
+  display: inline-block;
+  top: 15px;
+}
+
+.last-lu li a {
+  color: gray;
+  text-decoration: none;
+  padding-left: 40px;
+  top: 10px;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+}
+
+.new-lu {
+  list-style: none;
+  position: absolute;
+  right: 0;
+}
+
+.new-lu li {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  top: 15px;
+}
+
+@media (max-width: 800px) {
+  .navbar-lu {
+    display: none;
+  }
+}
+
+@media (max-width: 1325px) {
+  .hero-iluctrion {
+    position: absolute;
+    left: -16px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .textbox {
+    position: relative;
+    top: 270px;
+    text-align: center;
+  }
+  .for-new-down {
+    position: relative;
+    top: 330px;
+    text-align: center;
+  }
+  .text-box-div {
+    position: absolute;
+    left: 0%;
+    width: 100%;
+  }
+  .secation-features {
+    position: relative;
+    top: 280px;
+  }
+  .of-section-for-menu {
+    position: relative;
+    top: 280px;
+  }
+  .section-for-all-in-feture {
+    position: relative;
+    top: 280px;
+  }
+  .section-for-download {
+    position: relative;
+    top: 570px;
+  }
+  .cartd-section {
+    position: relative;
+    top: 570px;
+  }
+  .section-for-q {
+    position: relative;
+    top: 570px;
+  }
+  .last-section {
+    position: relative;
+    top: 570px;
+  }
+  .end-section {
+    position: relative;
+    top: 570px;
+  }
+  .new {
+    position: absolute;
+    list-style: none;
+  }
+  .new li {
+    display: inline-block;
+    padding-left: 50px;
+    text-align: cente;
+  }
+  .new li a {
+    color: gray;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 0.8rem;
+    text-align: center;
+  }
+}
+
+@media (max-width: 730px) {
+  .end-section {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Main.css.map */
